@@ -1,10 +1,10 @@
 /* See LICENSE file for copyright and license details. */
 /* Default settings; can be overriden by command line. */
 
-static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
+static int topbar = 0;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"JetBrains Mono Nerd Font:size=12:style=Medium"
+	"Recursive Mono Linear Static:size=11:style=Medium"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
