@@ -23,11 +23,14 @@ static const char col_pink[]                = "#ff79c6";
 static const char col_purple[]              = "#bd93f9";
 static const char col_red[]                 = "#ff5555";
 static const char col_yellow[]              = "#f1fa8c";
+static const char col_highlight[]           = "#ffc978";
 
 static const char *colors[SchemeLast][2] = {
 	/*                   fg              bg       */
 	[SchemeNorm] = { col_white, col_black },
 	[SchemeSel] = { col_white, col_light_gray },
+	[SchemeSelHighlight] = { col_highlight, col_light_gray },
+	[SchemeNormHighlight] = { col_highlight, col_black },
 	[SchemeOut] = { col_black, col_cyan },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
