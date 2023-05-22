@@ -7,8 +7,7 @@ static int min_width = 768;                 /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
 	"Recursive Mono Linear Static:size=11:style=Medium:antialias=true:autohint=true",
-	"Hack Nerd Font:pixelsize=11:antialias=true:autohint=true", // Powerline
-	"Symbola:pixelsize=11:antialias=true:autohint=true" // Unicode
+	"Joypixels:size=20"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
@@ -42,6 +41,3 @@ static unsigned int min_lineheight = 8;
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
-
-/* Size of the window border */
-static const unsigned int border_width = 0;
