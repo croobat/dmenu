@@ -7,8 +7,8 @@ static int centered = 1;                    /* -c option; centers dmenu on scree
 static int min_width = 768;                 /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Recursive Mono Linear Static:size=11:style=Medium:antialias=true:autohint=true",
-	"Joypixels:size=16"
+	"Recursive Mono Linear Static:size=10:style=Medium:antialias=true:autohint=true",
+	"Joypixels:size=14"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
