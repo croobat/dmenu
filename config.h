@@ -28,6 +28,8 @@ static const char *colors[SchemeLast][2] = {
 	/*                   fg              bg       */
 	[SchemeNorm] = { col_white, col_black },
 	[SchemeSel] = { col_white, col_light_gray },
+	[SchemeSelHighlight] = { "#ffc978", col_light_gray },
+	[SchemeNormHighlight] = { "#ffc978", col_black },
 	[SchemeOut] = { col_black, col_cyan },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
